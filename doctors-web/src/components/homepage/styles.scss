@@ -1,0 +1,151 @@
+.Homepage1{
+    background-image:url("https://corf-react.envytheme.com/img/home-one/home-one-banner-bg.jpg");
+    // margin: 10px;
+  // border: 5px black;
+  width: auto;
+  height: 100%;
+}
+
+.Hompage1-Text {
+    text-align: left;
+    margin-left: 10% !important;
+    margin-top: 20% !important;
+    color: white !important;
+}
+
+.Homepage1-img {
+    margin-left: 55% !important;
+    margin-top: -30% !important;
+    width: auto;
+    height: 200px;
+    position: unset;
+    animation-name: fadeInUp !important;
+    visibility: visible !important;
+    animation-delay: 1s !important;
+    // background-image: url('https://corf-react.envytheme.com/img/home-one/home-one-shape.png');
+}
+
+.Homepage1-card {
+    min-width: 275;
+  }
+
+// bullet: {
+//     display: 'inline-block',
+//     margin: '0 2px',
+//     transform: 'scale(0.8)',
+//   },
+.Homepage-card-title {
+    font-size: 18;
+  }
+.Homepage1-card-pos {
+    margin-bottom: 12;
+  }
+
+  @keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  .Homepage3{
+    align-items: center;
+    justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  .MuiCardActions-root.MuiCardActions-spacing {
+    justify-content: center;
+}
+.MuiGrid-root.Homepage3.MuiGrid-container.MuiGrid-spacing-xs-2.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12.MuiGrid-grid-lg-12 {
+  margin-left: 9%;
+  padding-right: 19%;
+}
+Homepage3-heading{
+  padding-top: 30px;
+}
+.MuiGrid-root.Homepage3-heading {
+  margin-top: 208px;
+}
+.Homepage3-card {
+  border-radius: 5px 5px 64px 5px !important;
+  max-height: 100%;
+  box-shadow: 1px 1px 2px 4px #fffafa;
+  border: 1px solid #ddd;
+
+}
+.Homepage3-imagelove{
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: 100%;
+    background-image: url('https://corf-react.envytheme.com/img/services-card-shape.png');
+}
+.MuiCardActions-root.MuiCardActions-spacing {
+  padding-bottom: 58px;
+}
+h5.MuiTypography-root.Homepage-card-title.MuiTypography-h5.MuiTypography-gutterBottom {
+  margin-top: 26px;
+}
+.MuiGrid-root.Homepage-imagelove {
+  position: absolute;
+  left: 16%;
+  opacity: 0.5;
+}
+.MuiGrid-root.Homepage-imagelove2 {
+  position: absolute;
+  left: 43%;
+  opacity: 0.5;
+}
+.MuiGrid-root.Homepage-imagelove3 {
+  position: absolute;
+  left: 70%;
+  opacity: 0.5;
+}
+.MuiGrid-root.Homepage-imagelove5 {
+  position: absolute;
+  left: 43%;
+  opacity: 0.5;
+}
+.MuiGrid-root.Homepage-imagelove6 {
+  position: absolute;
+  left: 70%;
+  opacity: 0.5;
+}
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 6em !important;
+  height: 2em !important;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.Homepage3-card :after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0cb8b6;
+  box-shadow: 0 0 15px #0cb8b6;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: -1;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+  border-radius: 10px 10px 100px 10px;
+}
+.Homepage3-card:hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.MuiPaper-root.MuiCard-root.Homepage3-card.MuiPaper-elevation1.MuiPaper-rounded {
+  margin-bottom: 20px;
+}
